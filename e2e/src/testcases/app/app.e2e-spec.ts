@@ -1,4 +1,4 @@
-import { AppPage } from './app.po';
+import { AppPage } from 'e2e/src/pages/app/app.po';
 
 describe('new App', () => {
   let page: AppPage;
