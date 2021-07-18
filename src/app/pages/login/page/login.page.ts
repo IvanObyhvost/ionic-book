@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { LocalStorageService } from '@app/modules/core/services';
 
 @Component({
   selector: 'app-login',
@@ -7,7 +8,7 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LoginPage implements OnInit {
-  constructor() {}
+  constructor(private localStorageService: LocalStorageService) {}
 
   ngOnInit() {}
 }
