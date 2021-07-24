@@ -15,6 +15,7 @@
 
 # Короткие пути в tsconfig.json
 
+```js
 "paths": {
 "@app/_": ["src/app/_"],
 "@modules/_": ["src/app/modules/_"],
@@ -22,6 +23,14 @@
 "@shared/_": ["src/modules/shared/_"],
 "@core/_": ["src/core/_"]
 }
+```
+
+## Code Structure
+
+```js
+└── Project Name
+ ├──src
+```
 
 # Короткий путь для переменых scss
 
