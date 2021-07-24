@@ -75,6 +75,7 @@
   │ │     │   ├──login-form.component.spec.ts
   │ │     │   └──login-form.component.ts
   │ │     ├──login-routing.page.module.ts
+  │ │     ├──login.page.module.ts
   │ │     ├──login.page.html
   │ │     ├──login.page.scss
   │ │     ├──login.page.spec.ts
