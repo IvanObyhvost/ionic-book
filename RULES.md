@@ -34,26 +34,46 @@
   │ ├──app/
   │ │ ├──modules/
   │ │ │ ├──shared/
-  │ │ │   ├──components/
-  │ │ │   │ ├──test/
-  │ │ │   │ │ ├──test.component.html
-  │ │ │   │ │ ├──test.component.scss
-  │ │ │   │ │ ├──test.component.spec.ts
-  │ │ │   │ │ └──test.component.ts
+  │ │ │ │ ├──components/
+  │ │ │ │ │ ├──test/
+  │ │ │ │ │ │ ├──test.component.html
+  │ │ │ │ │ │ ├──test.component.scss
+  │ │ │ │ │ │ ├──test.component.spec.ts
+  │ │ │ │ │ │ └──test.component.ts
+  │ │ │ │ │ └──index.ts
+  │ │ │ │ ├──directives/
+  │ │ │ │ │ ├──test/
+  │ │ │ │ │ │ ├──test.directive.spec.ts
+  │ │ │ │ │ │ └──test.directive.ts
+  │ │ │ │ │ └──index.ts
+  │ │ │ │ ├──pipes/
+  │ │ │ │ │ ├──test/
+  │ │ │ │ │ │ ├──test.pipe.spec.ts
+  │ │ │ │ │ │ └──test.pipe.ts
+  │ │ │ │ │ └──index.ts
+  │ │ │ │ └──shared.module.ts
+  │ │ │ └──core/
+  │ │ │   ├──services/
+  │ │ │   │ ├──capacitor/
+  │ │ │   │ │ ├──keyboard/
+  │ │ │   │ │ │ ├──keyboard.service.spec.ts
+  │ │ │   │ │ │ └──keyboard.service.ts
+  │ │ │   │ │ └──index.ts
+  │ │ │   │ ├──system/
+  │ │ │   │ │ ├──loading/
+  │ │ │   │ │ │ ├──loading.service.spec.ts
+  │ │ │   │ │ │ └──loading.service.ts
+  │ │ │   │ │ └──index.ts
   │ │ │   │ └──index.ts
-  │ │ │   ├──directives/
-  │ │ │   │ ├──test/
-  │ │ │   │ │ ├──test.directive.spec.ts
-  │ │ │   │ │ └──test.directive.ts
-  │ │ │   │ └──index.ts
-  │ │ │   ├──pipes/
-  │ │ │   │ ├──test/
-  │ │ │   │ │ ├──test.pipe.spec.ts
-  │ │ │   │ │ └──test.pipe.ts
-  │ │ │   │ └──index.ts
-  │ │ │   └──shared.module.ts
+  │ │ │   └──index.ts
   │ │ └──pages/
   │ │   └──login/
+  │ │     ├──components/
+  │ │     │ └──login-form/
+  │ │     │   ├──login-form.component.html
+  │ │     │   ├──login-form.component.scss
+  │ │     │   ├──login-form.component.spec.ts
+  │ │     │   └──login-form.component.ts
   │ │     ├──login-routing.page.module.ts
   │ │     ├──login.page.html
   │ │     ├──login.page.scss
